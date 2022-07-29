@@ -1,0 +1,84 @@
+.post {
+  width: 700px;
+  background-color: white;
+  min-height: 200px;
+  padding:2rem 0;
+  margin:10px 0;
+  border:1px solid #f1eeee;
+
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  border-radius:5px;
+  flex-wrap: wrap;
+  box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+
+  padding: 0 2rem;
+}
+
+.post__author {
+  font-size: 1rem;
+  font-weight: normal;
+  padding: 0.5rem 0;
+}
+.post__title {
+  padding: 0.5rem 0;
+  text-transform: capitalize;
+}
+.post__body {
+  color: #464444;
+  text-transform: capitalize;
+  font-size: 1rem;
+}
+
+.post__comments {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+  padding-bottom:1rem;
+gap:10px;
+  flex-wrap: wrap;
+}
+.comments__title {
+  font-size: 1rem;
+  padding: 0.5rem 0;
+}
+
+.comment {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  box-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+border:1px solid #e6e5e5;
+border-radius:5px;
+  padding:1rem;
+}
+.comment h4 {
+  font-weight:bold;
+}
+
+.comment p {
+  margin: 0;
+  padding: 0.5rem 0;
+  font-size: 0.9rem;
+  white-space: wrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-weight: normal;
+  color: #464444;
+}
+
+.post__comments button {
+  padding:1rem;
+  background-color:#2563eb;
+  border:none;
+  margin:0.5rem 0;
+  cursor:pointer;
+  font-family:"Roboto", sans-serif;
+  color:#fff;
+}

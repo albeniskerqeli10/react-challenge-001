@@ -1,0 +1,42 @@
+.appHeader {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fff;
+  position:sticky;
+  top:0;
+  flex-direction: row;
+  flex-wrap: wrap;
+  box-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+
+  padding: 1rem 1.5rem;
+  min-height: 40px;
+}
+
+.appHeader__logo {
+  align-self: center;
+}
+
+.appHeader__logo h1 {
+  font-size: 1rem;
+}
+
+.appHeader__nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.appHeader__nav li {
+  padding: 0 1.5rem;
+}
+
+.appHeader__nav li a {
+  text-decoration: none;
+  color: #000;
+  font-weight: normal;
+  font-size: 1rem;
+}

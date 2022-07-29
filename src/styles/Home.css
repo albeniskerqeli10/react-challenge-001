@@ -1,0 +1,16 @@
+.home {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+
+.home__title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin:0.5rem 0;
+
+}
